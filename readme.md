@@ -1,6 +1,6 @@
-# png-to-jpg-tool
+# png-to-jpg
 
-A script for batch converting pngs to jpgs
+A command-line tool for batch converting pngs to jpgs
 
 -----
 

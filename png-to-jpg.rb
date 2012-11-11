@@ -56,6 +56,7 @@ validateOptions(options)
 
 #simplify the variable names
 directoryName = ARGV[0]
+destinationName = ARGV[1]
 
 extension = ".png"
 replacementExtension = ".jpg"
@@ -76,7 +77,7 @@ end
 
 #convert that shit
 imagesHash.each do |orig, renamed|
-  renamedPath = directoryName + "/" + renamed
+  renamedPath = destinationName + "/" + renamed
   origPath = directoryName + "/" + orig
 
   command = "convert -quality #{options[:quality]} \"#{origPath}\" \"#{renamedPath}\""

@@ -14,7 +14,7 @@ OptionParser.new do |opts|
   opts.banner = "./png-to-jpg [--quality STRING] source-directory destination-directory"
   options[:usage] = opts.banner
 
-  opts.on("-q", "--quality STRING", "JPG compression quality") do |d|
+  opts.on("-q", "--quality STRING", "JPG compression quality. Number 1 - 100.") do |d|
     options[:quality] = d
   end
 

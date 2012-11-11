@@ -1,12 +1,5 @@
 #!/usr/bin/ruby
 
-# /scale_images.rb images \
-# --suffix -ipad \
-# --replacement illustration \
-# --extension .png \
-# --destination images/output \
-# --scale 30%"
-
 require 'optparse'
 
 options = {}
